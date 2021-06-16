@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-image: url("./snow.jpg");
+  background-size: cover;
+  background-position: center center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Muli', sans-serif;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+	text-align: center;
+}
+
+.weather-container {
+	display: flex;
+	flex-direction: column;
+
+	
+}
+
+.myForm
+{
+	font-size: large;
+	color: white;
+	background-color: tomato;
+	padding: 2vh 2vw 2vh 2vw;
+}
+.weatherdetails
+{
+	color: white;
+	background-color:rgba(0, 179, 0, 0.8);
+	margin-top: 10vh;
+	font-size: large;
+	padding: 2vh 2vw 2vh 2vw;
+
+}
+.animateup{
+
+	transition: all 2s ease-in-out;
+	animation: slideUp 2s none;
+}
+@keyframes slideUp {
+	0% {
+	  transform: translateY(0);
+	}
+	100% {
+	  transform: translateY(-10%);
+	}
+}
