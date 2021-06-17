@@ -17,15 +17,21 @@ body {
 	overflow: hidden;
 	margin: 0;
 	text-align: center;
+	transition: all 1s linear;
 }
-
 .weather-container {
 	display: flex;
 	flex-direction: column;
+	
+	
 
 	
 }
+.back{
+	
 
+
+}
 .myForm
 {
 	font-size: large;
@@ -41,17 +47,4 @@ body {
 	font-size: large;
 	padding: 2vh 2vw 2vh 2vw;
 
-}
-.animateup{
-
-	transition: all 2s ease-in-out;
-	animation: slideUp 2s none;
-}
-@keyframes slideUp {
-	0% {
-	  transform: translateY(0);
-	}
-	100% {
-	  transform: translateY(-10%);
-	}
 }
